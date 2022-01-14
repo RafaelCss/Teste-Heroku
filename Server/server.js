@@ -3,7 +3,7 @@ import express from "express"
 
 const app = express();
 
-app.use(express.static(path.join(__dirname, 'dist'))) //  usar de forma estatica toos os arquivos da pasta "dist";
+app.use(express.static(path.join('dist'))) //  usar de forma estatica toos os arquivos da pasta "dist";
 app.set('port', process.env.PORT || 3000);
 
 
