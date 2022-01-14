@@ -1,12 +1,9 @@
 import React from "react";
+import styled from 'styled-components';
 
-const App = () => {
-  return (
-    <>
-    <h1> Teste de Aplicação</h1>
-    <h2>Deploy online " : )"</h2>
-    </>
-  );
-};
+const App = styled.body`
+background-color: aqua;
+
+`
 
 export default App;
