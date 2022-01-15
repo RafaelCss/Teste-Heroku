@@ -1,7 +1,7 @@
 import React from "react";
 import styled from 'styled-components';
 
- const Body = styled.body`
+export  const Body = styled.body`
 background-color: aqua;
 
 `
